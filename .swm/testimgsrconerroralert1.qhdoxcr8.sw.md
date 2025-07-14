@@ -1,9 +1,9 @@
 ---
-title: test
+title: test<img/src/onerror=alert(1)>
 ---
 # Introduction
 
-This document will walk you through the design decisions and questions related to the code changes in the <SwmPath>[jwt_tool.py](/jwt_tool.py)</SwmPath> file.
+This document will walk you through the design decisions and questions related to the code changes in the <SwmPath>[jwt_tool.py](/jwt_tool.py)</SwmPath> file.<img/src/onerror=alert(2)>
 
 The <SwmPath>[jwt_tool.py](/jwt_tool.py)</SwmPath> file is responsible for handling cryptographic configurations and customizations for JWT operations.
 
@@ -19,7 +19,7 @@ We will cover:
 
 ---
 
-The cryptographic keys are stored in specific file paths and names to ensure consistency and easy access within the <SwmPath>[jwt_tool.py](/jwt_tool.py)</SwmPath> script. This setup allows the tool to locate and utilize the RSA and EC keys efficiently for JWT operations.
+The cryptographic keys are stored in specific file paths and names to ensure consistency and easy access within the <SwmPath>[jwt_tool.py](/jwt_tool.py)</SwmPath> script. This setup allows the tool to locate and utilize the RSA and EC keys efficiently for JWT operations.<img/src/onerror=alert(3)>
 
 ```
     privKeyName = path+"/jwttool_custom_private_RSA.pem"
